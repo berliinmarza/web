@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasgerStore</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <div id="wadah">
+        <div id="header"></div>
+        <div class="navbar">
+            <a class="navbar a" href="index.html">Home</a>
+            <a class="navbar a" href="about.html"> Tentang Kami</a>
+            <a class="navbar a" href="gallery.html">Gallery</a>
+            <a class="navbar a" href="contact.html">Hubungi Kami</a>
+          </div>
+<!-- waktu awal -->
+<div class="script">
+    <script>
+      var waktu	= new Date();
+      var jam		= waktu.getHours();
+      var hr  	= waktu.getDay();
+      var tgl		= waktu.getDate();
+      var bln		= waktu.getMonth();
+      var thn		= waktu.getFullYear();
+  
+      var bulan	= ["December"];
+      var hari	= ["Wednesday"];
+  
+      //bulan[11]
+  
+      document.write("Good Morning"+","+"<br>")
+      document.write(hari+", "+tgl+" "+bulan+" "+thn+"<br>");
+    </script>
+  </div>
+  <!-- waktu akhir -->
+  <div class="contact">
+    <div class="contact-container">
+        <form>
+            <h2 class="lg-view">Hubungi Kami</h2>
+            <h2 class="sm-view">Hubungi Kami</h2>
+            <input type="text" placeholder="Nama">
+            <input type="email" placeholder="Alamat Email">
+            <input type="phone" placeholder="Telepone" autocomplete="off">
+             <select>
+                <option>Join</option>
+                <option>Frenchese</option>
+                <option>Dropshiper</option>
+                <option>Affiliate</option>
+                <option>Customer</option>
+            </select>
+            <textarea rows="10" placeholder="Pesan"></textarea>
+            <button>Kirim</button>
+        </form>
+    </div>
+</div>
+<div id="footer">
+    <b>	&copy; Copyright 2023-Berlin Rahmat Marza</b>
+</div>
+</div>
+
+
+
+</body>
+</html>
